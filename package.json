@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cypress": "^10.3.0",
+    "cypress-grep": "^3.0.2"
+  },
+  "scripts": {
+    "open": "cypress open --e2e -b chrome",
+    "cy:run": "DEBUG=cypress-grep cypress run --e2e -b chrome --env grepTags=@core"
+  }
+}
